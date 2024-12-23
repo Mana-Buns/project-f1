@@ -1,0 +1,66 @@
+html {
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-color:#EEE;
+}
+
+.wrapper {
+    margin:0 auto;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.wrapper#table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navMenu {
+    width:100%;
+    max-height:100px;
+}
+
+.contentLeft {
+    width:48%;
+    min-width:200px;
+    float:left;
+}
+
+.contentRight {
+    width:48%;
+    min-width:200px;
+    float:right;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+    color:#111;
+}
+
+
+tr:nth-child(even) {
+    background-color: #DDD;
+}
+
+td {
+    padding:10px;
+    vertical-align: middle;
+}
+
+.flagIcon {
+    padding-top:10px;
+    vertical-align: middle;
+}
+
+.textData {
+    vertical-align: middle;
+}
+  
+.tableTitle {
+    text-align:center;
+}
+
