@@ -64,3 +64,9 @@ td {
     text-align:center;
 }
 
+.contentSixth {
+    width:16%;
+    float:left;
+    min-width:200px;
+}
+
